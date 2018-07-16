@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>classNavigationTitle</key>
+		<string>首页</string>
+		<key>classClass</key>
+		<string>HomeVC</string>
+		<key>classImageName</key>
+		<string>home-gray</string>
+		<key>classSelectedImageName</key>
+		<string>home-blue</string>
+	</dict>
+</array>
+</plist>

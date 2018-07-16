@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditUserVC" customModule="CommentProject" customModuleProvider="target">
+            <connections>
+                <outlet property="nameField" destination="CTx-lQ-TKv" id="hwD-z5-Igw"/>
+                <outlet property="shareSwitch" destination="iFI-gZ-acT" id="PIm-oG-4BR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CTx-lQ-TKv">
+                    <rect key="frame" x="20" y="201" width="335" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="uC6-LO-DgC"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USk-br-DP9">
+                    <rect key="frame" x="20" y="306" width="147.5" height="45"/>
+                    <color key="backgroundColor" red="0.074509803920000006" green="0.57647058819999997" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="FqN-kY-Pu7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="删除用户">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="deleteUserAction:" destination="-1" eventType="touchUpInside" id="mBq-ZK-lyO"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="设置分享状态" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0U-8T-dC9">
+                    <rect key="frame" x="20" y="431" width="104" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="right" contentVerticalAlignment="top" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iFI-gZ-acT">
+                    <rect key="frame" x="144" y="426" width="51" height="31"/>
+                    <connections>
+                        <action selector="setShareStatusAction:" destination="-1" eventType="valueChanged" id="5oe-Dd-lQ8"/>
+                    </connections>
+                </switch>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选中即为已分享" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gym-V6-S1v">
+                    <rect key="frame" x="20" y="457" width="86" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fW-rv-TWJ">
+                    <rect key="frame" x="207" y="306" width="147.5" height="45"/>
+                    <color key="backgroundColor" red="0.074509803920000006" green="0.57647058819999997" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="修改姓名">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="editUserNameAction:" destination="-1" eventType="touchUpInside" id="mee-KC-U7J"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="USk-br-DP9" firstAttribute="top" secondItem="CTx-lQ-TKv" secondAttribute="bottom" constant="60" id="1rh-8F-h5j"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="CTx-lQ-TKv" secondAttribute="trailing" constant="20" id="2G4-Lr-Bzx"/>
+                <constraint firstItem="iFI-gZ-acT" firstAttribute="centerY" secondItem="X0U-8T-dC9" secondAttribute="centerY" id="8ir-Cp-F8B"/>
+                <constraint firstItem="4fW-rv-TWJ" firstAttribute="bottom" secondItem="USk-br-DP9" secondAttribute="bottom" id="91U-31-YYb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4fW-rv-TWJ" secondAttribute="trailing" constant="20" id="BOO-7R-Cfw"/>
+                <constraint firstItem="Gym-V6-S1v" firstAttribute="top" secondItem="X0U-8T-dC9" secondAttribute="bottom" constant="5" id="M4Q-Is-7kS"/>
+                <constraint firstItem="X0U-8T-dC9" firstAttribute="leading" secondItem="USk-br-DP9" secondAttribute="leading" id="UxV-RN-VbA"/>
+                <constraint firstItem="4fW-rv-TWJ" firstAttribute="leading" secondItem="USk-br-DP9" secondAttribute="trailing" constant="40" id="a9G-Kr-IhG"/>
+                <constraint firstItem="iFI-gZ-acT" firstAttribute="leading" secondItem="X0U-8T-dC9" secondAttribute="trailing" constant="20" id="dvm-Yp-XF2"/>
+                <constraint firstItem="CTx-lQ-TKv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="hJu-B3-31R"/>
+                <constraint firstItem="USk-br-DP9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="k4f-Xs-KmE"/>
+                <constraint firstItem="Gym-V6-S1v" firstAttribute="leading" secondItem="X0U-8T-dC9" secondAttribute="leading" id="kvb-Ku-1Ep"/>
+                <constraint firstItem="X0U-8T-dC9" firstAttribute="top" secondItem="USk-br-DP9" secondAttribute="bottom" constant="80" id="ow8-VB-oJU"/>
+                <constraint firstItem="CTx-lQ-TKv" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="2/3" constant="1" id="s3D-97-oiK"/>
+                <constraint firstItem="4fW-rv-TWJ" firstAttribute="width" secondItem="USk-br-DP9" secondAttribute="width" id="ssj-gI-IXK"/>
+                <constraint firstItem="4fW-rv-TWJ" firstAttribute="top" secondItem="USk-br-DP9" secondAttribute="top" id="tCw-Pr-vzm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-47" y="45"/>
+        </view>
+    </objects>
+</document>
