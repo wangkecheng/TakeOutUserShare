@@ -25,17 +25,19 @@
 		031945AB20E0D47F00F517D5 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031945AA20E0D47F00F517D5 /* Header.swift */; };
 		0319D4CB20FB820600BD2FA5 /* HQToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319D4CA20FB820600BD2FA5 /* HQToast.swift */; };
 		034A144120FD81140099F0B5 /* HQActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034A144020FD81140099F0B5 /* HQActionSheet.swift */; };
+		035AEBE520FF3E3B00A0D481 /* HQGuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035AEBE320FF3E3B00A0D481 /* HQGuideVC.swift */; };
+		035AEBE620FF3E3B00A0D481 /* HQPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035AEBE420FF3E3B00A0D481 /* HQPageControl.swift */; };
+		035AEBF520FF3ED800A0D481 /* AddUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035AEBE920FF3ED800A0D481 /* AddUserVC.swift */; };
+		035AEBF620FF3ED800A0D481 /* AddUserVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035AEBEA20FF3ED800A0D481 /* AddUserVC.xib */; };
+		035AEBF720FF3ED800A0D481 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035AEBEB20FF3ED800A0D481 /* HomeVC.xib */; };
+		035AEBF820FF3ED800A0D481 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035AEBED20FF3ED800A0D481 /* UserModel.swift */; };
+		035AEBF920FF3ED800A0D481 /* UserNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035AEBEF20FF3ED800A0D481 /* UserNameCell.xib */; };
+		035AEBFA20FF3ED800A0D481 /* UserNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035AEBF020FF3ED800A0D481 /* UserNameCell.swift */; };
+		035AEBFB20FF3ED800A0D481 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035AEBF120FF3ED800A0D481 /* HomeVC.swift */; };
+		035AEBFC20FF3ED800A0D481 /* EditUserVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035AEBF320FF3ED800A0D481 /* EditUserVC.xib */; };
+		035AEBFD20FF3ED800A0D481 /* EditUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035AEBF420FF3ED800A0D481 /* EditUserVC.swift */; };
 		038EB40A20E481F9008D7512 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 038EB40920E481F9008D7512 /* libstdc++.tbd */; };
 		038EB40C20E48202008D7512 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 038EB40B20E48202008D7512 /* libz.tbd */; };
-		03B2B4E520EB5B9900A50FAF /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B2B4E320EB5B9900A50FAF /* HomeVC.swift */; };
-		03B2B4E620EB5B9900A50FAF /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B2B4E420EB5B9900A50FAF /* HomeVC.xib */; };
-		03B2B52220EB6DCD00A50FAF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B2B52020EB6DCC00A50FAF /* UserModel.swift */; };
-		03B2B52520EB6E0200A50FAF /* UserNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B2B52320EB6E0200A50FAF /* UserNameCell.swift */; };
-		03B2B52620EB6E0200A50FAF /* UserNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B2B52420EB6E0200A50FAF /* UserNameCell.xib */; };
-		03B2B5AB20EB858C00A50FAF /* AddUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B2B5A920EB858C00A50FAF /* AddUserVC.swift */; };
-		03B2B5AC20EB858C00A50FAF /* AddUserVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B2B5AA20EB858C00A50FAF /* AddUserVC.xib */; };
-		03B2B5AF20EB859D00A50FAF /* EditUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B2B5AD20EB859D00A50FAF /* EditUserVC.swift */; };
-		03B2B5B020EB859D00A50FAF /* EditUserVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03B2B5AE20EB859D00A50FAF /* EditUserVC.xib */; };
 		4B646B04EA84EA22C6B3F87A /* Pods_CommentProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398D50D09B036067737323F8 /* Pods_CommentProjectTests.framework */; };
 		6C89BB34716B0A2D02E22A7C /* Pods_CommentProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EAFAA7FA80A6B3CAC4F958A /* Pods_CommentProjectUITests.framework */; };
 		D2BE8FC920E362BC008F3D48 /* HQBaseServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BE8FC820E362BC008F3D48 /* HQBaseServer.swift */; };
@@ -83,18 +85,20 @@
 		031945AA20E0D47F00F517D5 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 		0319D4CA20FB820600BD2FA5 /* HQToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQToast.swift; sourceTree = "<group>"; };
 		034A144020FD81140099F0B5 /* HQActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQActionSheet.swift; sourceTree = "<group>"; };
+		035AEBE320FF3E3B00A0D481 /* HQGuideVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQGuideVC.swift; sourceTree = "<group>"; };
+		035AEBE420FF3E3B00A0D481 /* HQPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQPageControl.swift; sourceTree = "<group>"; };
+		035AEBE920FF3ED800A0D481 /* AddUserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddUserVC.swift; sourceTree = "<group>"; };
+		035AEBEA20FF3ED800A0D481 /* AddUserVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddUserVC.xib; sourceTree = "<group>"; };
+		035AEBEB20FF3ED800A0D481 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		035AEBED20FF3ED800A0D481 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		035AEBEF20FF3ED800A0D481 /* UserNameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserNameCell.xib; sourceTree = "<group>"; };
+		035AEBF020FF3ED800A0D481 /* UserNameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNameCell.swift; sourceTree = "<group>"; };
+		035AEBF120FF3ED800A0D481 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		035AEBF320FF3ED800A0D481 /* EditUserVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditUserVC.xib; sourceTree = "<group>"; };
+		035AEBF420FF3ED800A0D481 /* EditUserVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditUserVC.swift; sourceTree = "<group>"; };
 		038EB40920E481F9008D7512 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		038EB40B20E48202008D7512 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		039B2E53B33F0241469A8CEB /* Pods-CommentProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommentProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommentProject/Pods-CommentProject.release.xcconfig"; sourceTree = "<group>"; };
-		03B2B4E320EB5B9900A50FAF /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		03B2B4E420EB5B9900A50FAF /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
-		03B2B52020EB6DCC00A50FAF /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		03B2B52320EB6E0200A50FAF /* UserNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameCell.swift; sourceTree = "<group>"; };
-		03B2B52420EB6E0200A50FAF /* UserNameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserNameCell.xib; sourceTree = "<group>"; };
-		03B2B5A920EB858C00A50FAF /* AddUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserVC.swift; sourceTree = "<group>"; };
-		03B2B5AA20EB858C00A50FAF /* AddUserVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddUserVC.xib; sourceTree = "<group>"; };
-		03B2B5AD20EB859D00A50FAF /* EditUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserVC.swift; sourceTree = "<group>"; };
-		03B2B5AE20EB859D00A50FAF /* EditUserVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditUserVC.xib; sourceTree = "<group>"; };
 		297235D5CA86CFD66186200C /* Pods_CommentProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommentProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB7125950BD44E1BB51F484 /* Pods-CommentProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommentProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommentProjectTests/Pods-CommentProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		32CD3F135E996CE061F12C31 /* Pods-CommentProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommentProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommentProject/Pods-CommentProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -224,6 +228,7 @@
 				0319459120E0BDDE00F517D5 /* 导航页 */,
 				0319459020E0BDD900F517D5 /* 启动页 */,
 				0319458F20E0BDCF00F517D5 /* BaseVC */,
+				035AEBE720FF3ED800A0D481 /* 首页 */,
 			);
 			path = "视图";
 			sourceTree = "<group>";
@@ -236,7 +241,6 @@
 				0319459620E0BE4500F517D5 /* HQBaseTableVC.swift */,
 				0319459820E0BE6F00F517D5 /* HQBaseNavC.swift */,
 				0319459A20E0BEA600F517D5 /* HQMainTBC.swift */,
-				03B2B4DE20EB5B3E00A50FAF /* 首页 */,
 			);
 			path = BaseVC;
 			sourceTree = "<group>";
@@ -251,54 +255,56 @@
 		0319459120E0BDDE00F517D5 /* 导航页 */ = {
 			isa = PBXGroup;
 			children = (
+				035AEBE320FF3E3B00A0D481 /* HQGuideVC.swift */,
+				035AEBE420FF3E3B00A0D481 /* HQPageControl.swift */,
 			);
 			path = "导航页";
 			sourceTree = "<group>";
 		};
-		03B2B4DE20EB5B3E00A50FAF /* 首页 */ = {
+		035AEBE720FF3ED800A0D481 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
-				03B2B4E320EB5B9900A50FAF /* HomeVC.swift */,
-				03B2B4E420EB5B9900A50FAF /* HomeVC.xib */,
-				03B2B51F20EB6DCC00A50FAF /* model */,
-				03B2B52120EB6DCD00A50FAF /* view */,
-				03B2B5A720EB856B00A50FAF /* 添加 */,
-				03B2B5A820EB856C00A50FAF /* 编辑 */,
+				035AEBF120FF3ED800A0D481 /* HomeVC.swift */,
+				035AEBEB20FF3ED800A0D481 /* HomeVC.xib */,
+				035AEBEC20FF3ED800A0D481 /* model */,
+				035AEBEE20FF3ED800A0D481 /* view */,
+				035AEBE820FF3ED800A0D481 /* 添加 */,
+				035AEBF220FF3ED800A0D481 /* 编辑 */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
 		};
-		03B2B51F20EB6DCC00A50FAF /* model */ = {
+		035AEBE820FF3ED800A0D481 /* 添加 */ = {
 			isa = PBXGroup;
 			children = (
-				03B2B52020EB6DCC00A50FAF /* UserModel.swift */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		03B2B52120EB6DCD00A50FAF /* view */ = {
-			isa = PBXGroup;
-			children = (
-				03B2B52320EB6E0200A50FAF /* UserNameCell.swift */,
-				03B2B52420EB6E0200A50FAF /* UserNameCell.xib */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		03B2B5A720EB856B00A50FAF /* 添加 */ = {
-			isa = PBXGroup;
-			children = (
-				03B2B5A920EB858C00A50FAF /* AddUserVC.swift */,
-				03B2B5AA20EB858C00A50FAF /* AddUserVC.xib */,
+				035AEBE920FF3ED800A0D481 /* AddUserVC.swift */,
+				035AEBEA20FF3ED800A0D481 /* AddUserVC.xib */,
 			);
 			path = "添加";
 			sourceTree = "<group>";
 		};
-		03B2B5A820EB856C00A50FAF /* 编辑 */ = {
+		035AEBEC20FF3ED800A0D481 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				03B2B5AD20EB859D00A50FAF /* EditUserVC.swift */,
-				03B2B5AE20EB859D00A50FAF /* EditUserVC.xib */,
+				035AEBED20FF3ED800A0D481 /* UserModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		035AEBEE20FF3ED800A0D481 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				035AEBEF20FF3ED800A0D481 /* UserNameCell.xib */,
+				035AEBF020FF3ED800A0D481 /* UserNameCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		035AEBF220FF3ED800A0D481 /* 编辑 */ = {
+			isa = PBXGroup;
+			children = (
+				035AEBF320FF3ED800A0D481 /* EditUserVC.xib */,
+				035AEBF420FF3ED800A0D481 /* EditUserVC.swift */,
 			);
 			path = "编辑";
 			sourceTree = "<group>";
@@ -441,11 +447,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0319456920E0BD5000F517D5 /* LaunchScreen.storyboard in Resources */,
-				03B2B52620EB6E0200A50FAF /* UserNameCell.xib in Resources */,
+				035AEBF720FF3ED800A0D481 /* HomeVC.xib in Resources */,
 				0319459320E0BDEE00F517D5 /* TabBarItem.plist in Resources */,
-				03B2B5AC20EB858C00A50FAF /* AddUserVC.xib in Resources */,
-				03B2B4E620EB5B9900A50FAF /* HomeVC.xib in Resources */,
-				03B2B5B020EB859D00A50FAF /* EditUserVC.xib in Resources */,
+				035AEBF620FF3ED800A0D481 /* AddUserVC.xib in Resources */,
+				035AEBF920FF3ED800A0D481 /* UserNameCell.xib in Resources */,
+				035AEBFC20FF3ED800A0D481 /* EditUserVC.xib in Resources */,
 				0319456620E0BD5000F517D5 /* Assets.xcassets in Resources */,
 				0319456420E0BD5000F517D5 /* Main.storyboard in Resources */,
 			);
@@ -635,19 +641,21 @@
 				0319D4CB20FB820600BD2FA5 /* HQToast.swift in Sources */,
 				031945AB20E0D47F00F517D5 /* Header.swift in Sources */,
 				0319459520E0BE1F00F517D5 /* HQBaseVC.swift in Sources */,
-				03B2B4E520EB5B9900A50FAF /* HomeVC.swift in Sources */,
+				035AEBFD20FF3ED800A0D481 /* EditUserVC.swift in Sources */,
+				035AEBE620FF3E3B00A0D481 /* HQPageControl.swift in Sources */,
 				0319456120E0BD5000F517D5 /* ViewController.swift in Sources */,
-				03B2B5AB20EB858C00A50FAF /* AddUserVC.swift in Sources */,
+				035AEBE520FF3E3B00A0D481 /* HQGuideVC.swift in Sources */,
+				035AEBF820FF3ED800A0D481 /* UserModel.swift in Sources */,
 				034A144120FD81140099F0B5 /* HQActionSheet.swift in Sources */,
 				0319459920E0BE6F00F517D5 /* HQBaseNavC.swift in Sources */,
 				D2BE8FC920E362BC008F3D48 /* HQBaseServer.swift in Sources */,
+				035AEBF520FF3ED800A0D481 /* AddUserVC.swift in Sources */,
 				0319455F20E0BD5000F517D5 /* AppDelegate.swift in Sources */,
-				03B2B52520EB6E0200A50FAF /* UserNameCell.swift in Sources */,
-				03B2B5AF20EB859D00A50FAF /* EditUserVC.swift in Sources */,
 				0319459720E0BE4500F517D5 /* HQBaseTableVC.swift in Sources */,
 				0319459E20E0C0DD00F517D5 /* HQFactory.swift in Sources */,
-				03B2B52220EB6DCD00A50FAF /* UserModel.swift in Sources */,
 				0319459B20E0BEA600F517D5 /* HQMainTBC.swift in Sources */,
+				035AEBFB20FF3ED800A0D481 /* HomeVC.swift in Sources */,
+				035AEBFA20FF3ED800A0D481 /* UserNameCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

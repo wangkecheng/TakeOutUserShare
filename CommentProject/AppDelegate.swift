@@ -15,9 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
          self.window = UIWindow.init(frame: CGRect.init(origin: CGPoint.init(x: 0, y: 0), size: CGSize.init(width:SCREEN_WIDTH, height:SCREEN_HEIGHT)))
         self.window?.makeKeyAndVisible()
-        let nav:HQBaseNavC = HQBaseNavC(rootViewController:HomeVC())
-         self.window?.rootViewController = nav
+       
         HQVersionUpadateManager.shareManger().checkVersion()
+        
+        if !HQGuideVC.hadLoaded(){
+            let VC = HQGuideVC.loadWithBlock {[unowned self] (isFinish:Bool) in
+                let nav:HQBaseNavC = HQBaseNavC(rootViewController:HomeVC())
+                self.window?.rootViewController = nav
+            }
+            self.window?.rootViewController = VC//第一次进入会走这里
+        }else{
+            let nav:HQBaseNavC = HQBaseNavC(rootViewController:HomeVC())
+            self.window?.rootViewController = nav
+        }
         return true
     }
 
