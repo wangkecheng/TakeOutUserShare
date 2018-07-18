@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01CA9C4AD26046CDBB210618 /* Pods_CommentProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297235D5CA86CFD66186200C /* Pods_CommentProject.framework */; };
-		031917C120FC4CFE009EA915 /* VersionUpadateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031917C020FC4CFE009EA915 /* VersionUpadateManager.swift */; };
+		031917C120FC4CFE009EA915 /* HQVersionUpadateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031917C020FC4CFE009EA915 /* HQVersionUpadateManager.swift */; };
 		0319455F20E0BD5000F517D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319455E20E0BD5000F517D5 /* AppDelegate.swift */; };
 		0319456120E0BD5000F517D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319456020E0BD5000F517D5 /* ViewController.swift */; };
 		0319456420E0BD5000F517D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0319456220E0BD5000F517D5 /* Main.storyboard */; };
@@ -23,7 +23,8 @@
 		0319459B20E0BEA600F517D5 /* HQMainTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319459A20E0BEA600F517D5 /* HQMainTBC.swift */; };
 		0319459E20E0C0DD00F517D5 /* HQFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319459D20E0C0DD00F517D5 /* HQFactory.swift */; };
 		031945AB20E0D47F00F517D5 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031945AA20E0D47F00F517D5 /* Header.swift */; };
-		0319D4CB20FB820600BD2FA5 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319D4CA20FB820600BD2FA5 /* Toast.swift */; };
+		0319D4CB20FB820600BD2FA5 /* HQToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319D4CA20FB820600BD2FA5 /* HQToast.swift */; };
+		034A144120FD81140099F0B5 /* HQActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034A144020FD81140099F0B5 /* HQActionSheet.swift */; };
 		038EB40A20E481F9008D7512 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 038EB40920E481F9008D7512 /* libstdc++.tbd */; };
 		038EB40C20E48202008D7512 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 038EB40B20E48202008D7512 /* libz.tbd */; };
 		03B2B4E520EB5B9900A50FAF /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B2B4E320EB5B9900A50FAF /* HomeVC.swift */; };
@@ -59,7 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		031917C020FC4CFE009EA915 /* VersionUpadateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionUpadateManager.swift; sourceTree = "<group>"; };
+		031917C020FC4CFE009EA915 /* HQVersionUpadateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQVersionUpadateManager.swift; sourceTree = "<group>"; };
 		0319455B20E0BD5000F517D5 /* CommentProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommentProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0319455E20E0BD5000F517D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0319456020E0BD5000F517D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,7 +81,8 @@
 		0319459A20E0BEA600F517D5 /* HQMainTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQMainTBC.swift; sourceTree = "<group>"; };
 		0319459D20E0C0DD00F517D5 /* HQFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQFactory.swift; sourceTree = "<group>"; };
 		031945AA20E0D47F00F517D5 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
-		0319D4CA20FB820600BD2FA5 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		0319D4CA20FB820600BD2FA5 /* HQToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQToast.swift; sourceTree = "<group>"; };
+		034A144020FD81140099F0B5 /* HQActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQActionSheet.swift; sourceTree = "<group>"; };
 		038EB40920E481F9008D7512 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		038EB40B20E48202008D7512 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		039B2E53B33F0241469A8CEB /* Pods-CommentProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommentProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommentProject/Pods-CommentProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -208,8 +210,9 @@
 			isa = PBXGroup;
 			children = (
 				0319459D20E0C0DD00F517D5 /* HQFactory.swift */,
-				0319D4CA20FB820600BD2FA5 /* Toast.swift */,
-				031917C020FC4CFE009EA915 /* VersionUpadateManager.swift */,
+				0319D4CA20FB820600BD2FA5 /* HQToast.swift */,
+				031917C020FC4CFE009EA915 /* HQVersionUpadateManager.swift */,
+				034A144020FD81140099F0B5 /* HQActionSheet.swift */,
 				D2CD542F20E238070064CA58 /* 网络请求 */,
 			);
 			path = "工具";
@@ -627,14 +630,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				031917C120FC4CFE009EA915 /* VersionUpadateManager.swift in Sources */,
+				031917C120FC4CFE009EA915 /* HQVersionUpadateManager.swift in Sources */,
 				D2BE8FCB20E363F7008F3D48 /* HQModel.swift in Sources */,
-				0319D4CB20FB820600BD2FA5 /* Toast.swift in Sources */,
+				0319D4CB20FB820600BD2FA5 /* HQToast.swift in Sources */,
 				031945AB20E0D47F00F517D5 /* Header.swift in Sources */,
 				0319459520E0BE1F00F517D5 /* HQBaseVC.swift in Sources */,
 				03B2B4E520EB5B9900A50FAF /* HomeVC.swift in Sources */,
 				0319456120E0BD5000F517D5 /* ViewController.swift in Sources */,
 				03B2B5AB20EB858C00A50FAF /* AddUserVC.swift in Sources */,
+				034A144120FD81140099F0B5 /* HQActionSheet.swift in Sources */,
 				0319459920E0BE6F00F517D5 /* HQBaseNavC.swift in Sources */,
 				D2BE8FC920E362BC008F3D48 /* HQBaseServer.swift in Sources */,
 				0319455F20E0BD5000F517D5 /* AppDelegate.swift in Sources */,

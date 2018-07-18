@@ -22,7 +22,7 @@ class HomeVC: HQBaseVC,UICollectionViewDataSource, UICollectionViewDelegate,UICo
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+       
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.register(UINib.init(nibName: "UserNameCell", bundle: nil), forCellWithReuseIdentifier: "UserNameCell")
@@ -31,7 +31,7 @@ class HomeVC: HQBaseVC,UICollectionViewDataSource, UICollectionViewDelegate,UICo
         flowlayout.sectionInset =  UIEdgeInsetsMake(10, 10, 0, 10)
         flowlayout.minimumInteritemSpacing = 10//同一行
         flowlayout.minimumLineSpacing = 10//同一列
-        getData()
+        getData() 
     }
     func getData() {
         HQBaseServer.postObjc(objc:HQModel(), path: "getUsers.php", isShowHud: false, isShowSuccessHud: false, attachObjc:AnyObject.self as AnyObject, successBlock: { [unowned self] (result:NSDictionary,attachObj:AnyObject) -> (Void)  in

@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.makeKeyAndVisible()
         let nav:HQBaseNavC = HQBaseNavC(rootViewController:HomeVC())
          self.window?.rootViewController = nav
-        VersionUpadateManager.shareManger().checkVersion()
+        HQVersionUpadateManager.shareManger().checkVersion()
         return true
     }
 

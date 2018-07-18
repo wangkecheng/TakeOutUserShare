@@ -21,7 +21,7 @@ let SPECIAL_MODE_CHECK_URL = "https://itunes.apple.com/lookup?country=%@&bundleI
 let NORMAL_MODE_CHECK_URL = "https://itunes.apple.com/lookup?bundleId=%@"
 let SKIP_CURRENT_VERSION  = "SKIPCURRENTVERSION"
 let SKIP_VERSION = "SKIPVERSION"
-class  VersionUpadateManager:NSObject,UIAlertViewDelegate,SKStoreProductViewControllerDelegate{
+class  HQVersionUpadateManager:NSObject,UIAlertViewDelegate,SKStoreProductViewControllerDelegate{
     var nextTimeTitle:NSString? = "下次提示"
     var confimTitle:NSString? = "前往更新"
     var alertTitle:NSString? = "发现新版本"
@@ -30,8 +30,8 @@ class  VersionUpadateManager:NSObject,UIAlertViewDelegate,SKStoreProductViewCont
     //  if you can't get the update info of your APP. Set countryAbbreviation of the sale area. like `countryAbbreviation = @"cn"`,`countryAbbreviation = @"us"`.General, you don't need to set this property.
     var countryAbbreviation:NSString?
     
-     static let instance:VersionUpadateManager = VersionUpadateManager()
-     static func shareManger() -> VersionUpadateManager  {
+     static let instance:HQVersionUpadateManager = HQVersionUpadateManager()
+     static func shareManger() -> HQVersionUpadateManager  {
         return instance
     }
     func checkVersion()  {
